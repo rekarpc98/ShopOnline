@@ -1,4 +1,4 @@
-﻿namespace ShopOnline.Api.Models.Entities;
+﻿namespace ShopOnline.Api.Models.Entities.Products;
 
 public class Product
 {
