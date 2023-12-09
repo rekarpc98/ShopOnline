@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Models.Entities;
+using ShopOnline.Api.Models.Entities.Products;
 
 namespace ShopOnline.Api.Data;
 
