@@ -1,6 +1,6 @@
 ﻿using Riok.Mapperly.Abstractions;
-using ShopOnline.Api.Models.Dtos;
 using ShopOnline.Api.Models.Entities.Products;
+using ShopOnline.Models.Dtos;
 
 namespace ShopOnline.Api.Mappers;
 

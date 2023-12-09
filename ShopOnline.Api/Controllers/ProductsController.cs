@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ShopOnline.Api.Mappers;
-using ShopOnline.Api.Models.Dtos;
 using ShopOnline.Api.Models.Entities.Products;
 using ShopOnline.Api.Models.Entities.Products.Exceptions;
-using ShopOnline.Api.Models.Requests.Products;
 using ShopOnline.Api.Services.Interfaces;
+using ShopOnline.Models.Dtos;
+using ShopOnline.Models.Requests.Products;
 
 namespace ShopOnline.Api.Controllers;
 

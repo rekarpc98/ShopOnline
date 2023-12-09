@@ -1,5 +1,5 @@
 ﻿using ShopOnline.Api.Models.Entities.Products;
-using ShopOnline.Api.Models.Requests.Products;
+using ShopOnline.Models.Requests.Products;
 
 namespace ShopOnline.Api.Services.Interfaces;
 

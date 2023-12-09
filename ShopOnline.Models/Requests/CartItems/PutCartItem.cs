@@ -1,4 +1,4 @@
-﻿namespace ShopOnline.Api.Models.Requests.CartItems;
+﻿namespace ShopOnline.Models.Requests.CartItems;
 
 public class PutCartItem
 {

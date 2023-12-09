@@ -1,6 +1,6 @@
-﻿namespace ShopOnline.Api.Models.Requests.Products;
+﻿namespace ShopOnline.Models.Requests.Products;
 
-public class PutProduct
+public class PostProduct
 {
 	public string Name { get; set; } = string.Empty;
 	public string Description { get; set; } = string.Empty;

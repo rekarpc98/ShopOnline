@@ -1,8 +1,8 @@
 ﻿using ShopOnline.Api.Models.Entities.Products;
 using ShopOnline.Api.Models.Entities.Products.Exceptions;
-using ShopOnline.Api.Models.Requests.Products;
 using ShopOnline.Api.Repositories.Interfaces;
 using ShopOnline.Api.Services.Interfaces;
+using ShopOnline.Models.Requests.Products;
 
 namespace ShopOnline.Api.Services.Implementations;
 
