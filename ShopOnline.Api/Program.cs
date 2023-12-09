@@ -1,4 +1,6 @@
 using ShopOnline.Api.Data;
+using ShopOnline.Api.Repositories.Implementations;
+using ShopOnline.Api.Repositories.Interfaces;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 WebApplication app = builder.Build();
 
